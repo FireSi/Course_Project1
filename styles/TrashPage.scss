@@ -1,0 +1,407 @@
+@media (min-width: 750px){
+    body{
+        width: 98vw;
+        height: 97vh;
+        animation: gradientAnimation 200s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    header {
+        background-color: rgba(255,255,255,0.5);
+        margin: 0.52083% 0.52083% 0 0.52083%;
+        width: 96.4583%;
+        height: 16.6667vh;
+        border: 2px solid black;
+        border-radius: 1.04167%;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        #logotipe {
+            border-right: 2px solid black;
+            width: 12.3333%;
+            height: 99.8148%;
+            margin-right: 1.04167%;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        #Title{
+            width: 22.2391%;
+            height: 12.9412%;
+            font-size: 3.6667vw;
+            margin: -4.9% 0 2% 27%;
+            float: left;
+        }
+        #TitleRus{
+            width: auto;
+            height: 8.7059%;
+            font-size: 1.6667vw;
+            margin: 3% 0 0 -21%;
+            float: left;
+        }
+    }
+    #Card{
+        width: 96%;
+        height: 69%;
+        float: left;
+        margin: 10px 0px 0px 10px;
+        border: 2px solid black;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.504);
+        overflow: hidden;
+        #ImageZone{
+            width: 34%;
+            height: 100%;
+            border-right: 2px solid black;
+            float: left;
+            #FlowerIMG{
+                width: 100%;
+                height: 81%;
+                border-bottom: 1px solid black;
+            }
+        }
+        #Options{
+            background-color: rgba(255, 255, 255, 0.504);
+            margin: 1% 1% 0 0;
+            width: 63%;
+            height: 94%;
+            float: right;
+            border: 2px solid black;
+            border-radius: 20px;
+            div{
+                font-size: 25pt;
+                height: 8%;
+            }
+            #FlowerDescription{
+                height: 60%;
+            }
+            #FlowerIsSellingNain{
+                color: red;
+            }
+            #FlowerIsSellingYeah{
+                color: green;
+            }
+        }
+    }
+    #NotPhone{
+        display: none;
+    }
+}
+@media (max-width: 749px){
+    header{
+        display: none;
+    }
+    #Card{
+        display: none;
+    }
+    #NotPhone{
+        display: block;
+        color: red;
+        font-size: 20pt;
+    }
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 102, 0));
+    }
+    1% {
+        background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 51, 0), rgb(255, 102, 0));
+    }
+    2% {
+        background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 26, 0), rgb(255, 51, 0), rgb(255, 77, 0), rgb(255, 102, 0));
+    }
+    3% {
+        background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 13, 0), rgb(255, 26, 0), rgb(255, 38, 0), rgb(255, 51, 0), rgb(255, 64, 0), rgb(255, 77, 0), rgb(255, 89, 0), rgb(255, 102, 0));
+    }
+    4% {
+        background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 10, 0), rgb(255, 20, 0), rgb(255, 30, 0), rgb(255, 40, 0), rgb(255, 50, 0), rgb(255, 60, 0), rgb(255, 70, 0), rgb(255, 80, 0), rgb(255, 90, 0), rgb(255, 102, 0));
+    }
+    5% {
+        background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 102, 0));
+    }
+    6% {
+        background: linear-gradient(to right, rgb(255, 26, 0), rgb(255, 77, 0), rgb(255, 128, 0));
+    }
+    7% {
+        background: linear-gradient(to right, rgb(255, 51, 0), rgb(255, 102, 0), rgb(255, 153, 0));
+    }
+    8% {
+        background: linear-gradient(to right, rgb(255, 77, 0), rgb(255, 128, 0), rgb(255, 179, 0));
+    }
+    9% {
+        background: linear-gradient(to right, rgb(255, 102, 0), rgb(255, 153, 0), rgb(255, 204, 0));
+    }
+    10% {
+        background: linear-gradient(to right, rgb(255, 128, 0), rgb(255, 179, 0), rgb(255, 230, 0));
+    }
+    11% {
+        background: linear-gradient(to right, rgb(255, 153, 0), rgb(255, 204, 0), rgb(255, 255, 0));
+    }
+    12% {
+        background: linear-gradient(to right, rgb(255, 179, 0), rgb(255, 230, 0), rgb(204, 255, 0));
+    }
+    13% {
+        background: linear-gradient(to right, rgb(255, 204, 0), rgb(255, 255, 0), rgb(153, 255, 0));
+    }
+    14% {
+        background: linear-gradient(to right, rgb(255, 230, 0), rgb(204, 255, 0), rgb(102, 255, 0));
+    }
+    15% {
+        background: linear-gradient(to right, rgb(255, 255, 0), rgb(153, 255, 0), rgb(51, 255, 0));
+    }
+    16% {
+        background: linear-gradient(to right, rgb(204, 255, 0), rgb(102, 255, 0), rgb(0, 255, 0));
+    }
+    17% {
+        background: linear-gradient(to right, rgb(153, 255, 0), rgb(51, 255, 0), rgb(0, 255, 51));
+    }
+    18% {
+        background: linear-gradient(to right, rgb(102, 255, 0), rgb(0, 255, 0), rgb(0, 255, 102));
+    }
+    19% {
+        background: linear-gradient(to right, rgb(51, 255, 0), rgb(0, 255, 51), rgb(0, 255, 153));
+    }
+    20% {
+        background: linear-gradient(to right, rgb(0, 255, 0), rgb(0, 255, 102), rgb(0, 255, 204));
+    }
+    21% {
+        background: linear-gradient(to right, rgb(0, 255, 51), rgb(0, 255, 153), rgb(0, 255, 255));
+    }
+    22% {
+        background: linear-gradient(to right, rgb(0, 255, 102), rgb(0, 255, 204), rgb(0, 204, 255));
+    }
+    23% {
+        background: linear-gradient(to right, rgb(0, 255, 153), rgb(0, 255, 255), rgb(0, 153, 255));
+    }
+    24% {
+        background: linear-gradient(to right, rgb(0, 255, 204), rgb(0, 204, 255), rgb(0, 102, 255));
+    }
+    25% {
+        background: linear-gradient(to right, rgb(0, 255, 255), rgb(0, 153, 255), rgb(0, 51, 255));
+    }
+    26% {
+        background: linear-gradient(to right, rgb(0, 204, 255), rgb(0, 102, 255), rgb(0, 0, 255));
+    }
+    27% {
+        background: linear-gradient(to right, rgb(0, 153, 255), rgb(0, 51, 255), rgb(51, 0, 255));
+    }
+    28% {
+        background: linear-gradient(to right, rgb(0, 102, 255), rgb(0, 0, 255), rgb(102, 0, 255));
+    }
+    29% {
+        background: linear-gradient(to right, rgb(0, 51, 255), rgb(51, 0, 255), rgb(153, 0, 255));
+    }
+    30% {
+        background: linear-gradient(to right, rgb(0, 0, 255), rgb(102, 0, 255), rgb(204, 0, 255));
+    }
+    31% {
+        background: linear-gradient(to right, rgb(51, 0, 255), rgb(153, 0, 255), rgb(255, 0, 255));
+    }
+    32% {
+        background: linear-gradient(to right, rgb(102, 0, 255), rgb(204, 0, 255), rgb(255, 0, 204));
+    }
+    33% {
+        background: linear-gradient(to right, rgb(153, 0, 255), rgb(255, 0, 255), rgb(255, 0, 153));
+    }
+    34% {
+        background: linear-gradient(to right, rgb(204, 0, 255), rgb(255, 0, 204), rgb(255, 0, 102));
+    }
+    35% {
+        background: linear-gradient(to right, rgb(255, 0, 255), rgb(255, 0, 153), rgb(255, 0, 51));
+    }
+    36% {
+        background: linear-gradient(to right, rgb(255, 0, 204), rgb(255, 0, 102), rgb(255, 0, 0));
+    }
+    37% {
+        background: linear-gradient(to right, rgb(255, 0, 153), rgb(255, 0, 51), rgb(255, 26, 0));
+    }
+    38% {
+        background: linear-gradient(to right, rgb(255, 0, 102), rgb(255, 0, 0), rgb(255, 51, 0));
+    }
+    39% {
+        background: linear-gradient(to right, rgb(255, 0, 51), rgb(255, 26, 0), rgb(255, 77, 0));
+    }
+    40% {
+        background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 51, 0), rgb(255, 102, 0));
+    }
+    41% {
+        background: linear-gradient(to right, rgb(255, 26, 0), rgb(255, 77, 0), rgb(255, 128, 0));
+    }
+    42% {
+        background: linear-gradient(to right, rgb(255, 51, 0), rgb(255, 102, 0), rgb(255, 153, 0));
+    }
+    43% {
+        background: linear-gradient(to right, rgb(255, 77, 0), rgb(255, 128, 0), rgb(255, 179, 0));
+    }
+    44% {
+        background: linear-gradient(to right, rgb(255, 102, 0), rgb(255, 153, 0), rgb(255, 204, 0));
+    }
+    45% {
+        background: linear-gradient(to right, rgb(255, 128, 0), rgb(255, 179, 0), rgb(255, 230, 0));
+    }
+    46% {
+        background: linear-gradient(to right, rgb(255, 153, 0), rgb(255, 204, 0), rgb(255, 255, 0));
+    }
+    47% {
+        background: linear-gradient(to right, rgb(255, 179, 0), rgb(255, 230, 0), rgb(204, 255, 0));
+    }
+    48% {
+        background: linear-gradient(to right, rgb(255, 204, 0), rgb(255, 255, 0), rgb(153, 255, 0));
+    }
+    49% {
+        background: linear-gradient(to right, rgb(255, 230, 0), rgb(204, 255, 0), rgb(102, 255, 0));
+    }
+    50% {
+        background: linear-gradient(to right, rgb(255, 255, 0), rgb(153, 255, 0), rgb(51, 255, 0));
+    }
+    51% {
+        background: linear-gradient(to right, rgb(204, 255, 0), rgb(102, 255, 0), rgb(0, 255, 0));
+    }
+    52% {
+        background: linear-gradient(to right, rgb(153, 255, 0), rgb(51, 255, 0), rgb(0, 255, 51));
+    }
+    53% {
+        background: linear-gradient(to right, rgb(102, 255, 0), rgb(0, 255, 0), rgb(0, 255, 102));
+    }
+    54% {
+        background: linear-gradient(to right, rgb(51, 255, 0), rgb(0, 255, 51), rgb(0, 255, 153));
+    }
+    55% {
+        background: linear-gradient(to right, rgb(0, 255, 0), rgb(0, 255, 102), rgb(0, 255, 204));
+    }
+    56% {
+        background: linear-gradient(to right, rgb(0, 255, 51), rgb(0, 255, 153), rgb(0, 255, 255));
+    }
+    57% {
+        background: linear-gradient(to right, rgb(0, 255, 102), rgb(0, 255, 204), rgb(0, 204, 255));
+    }
+    58% {
+        background: linear-gradient(to right, rgb(0, 255, 153), rgb(0, 255, 255), rgb(0, 153, 255));
+    }
+    59% {
+        background: linear-gradient(to right, rgb(0, 255, 204), rgb(0, 204, 255), rgb(0, 102, 255));
+    }
+    60% {
+        background: linear-gradient(to right, rgb(0, 255, 255), rgb(0, 153, 255), rgb(0, 51, 255));
+    }
+    61% {
+        background: linear-gradient(to right, rgb(0, 204, 255), rgb(0, 102, 255), rgb(0, 0, 255));
+    }
+    62% {
+        background: linear-gradient(to right, rgb(0, 153, 255), rgb(0, 51, 255), rgb(51, 0, 255));
+    }
+    63% {
+        background: linear-gradient(to right, rgb(0, 102, 255), rgb(0, 0, 255), rgb(102, 0, 255));
+    }
+    64% {
+        background: linear-gradient(to right, rgb(0, 51, 255), rgb(51, 0, 255), rgb(153, 0, 255));
+    }
+    65% {
+        background: linear-gradient(to right, rgb(0, 0, 255), rgb(102, 0, 255), rgb(204, 0, 255));
+    }
+    66% {
+        background: linear-gradient(to right, rgb(51, 0, 255), rgb(153, 0, 255), rgb(255, 0, 255));
+    }
+    67% {
+        background: linear-gradient(to right, rgb(102, 0, 255), rgb(204, 0, 255), rgb(255, 0, 204));
+    }
+    68% {
+        background: linear-gradient(to right, rgb(153, 0, 255), rgb(255, 0, 255), rgb(255, 0, 153));
+    }
+    69% {
+        background: linear-gradient(to right, rgb(204, 0, 255), rgb(255, 0, 204), rgb(255, 0, 102));
+    }
+    70% {
+        background: linear-gradient(to right, rgb(255, 0, 255), rgb(255, 0, 153), rgb(255, 0, 51));
+    }
+    71% {
+        background: linear-gradient(to right, rgb(255, 0, 204), rgb(255, 0, 102), rgb(255, 0, 0));
+    }
+    72% {
+        background: linear-gradient(to right, rgb(255, 0, 153), rgb(255, 0, 51), rgb(255, 26, 0));
+    }
+    73% {
+        background: linear-gradient(to right, rgb(255, 0, 102), rgb(255, 0, 0), rgb(255, 51, 0));
+    }
+    74% {
+        background: linear-gradient(to right, rgb(255, 0, 51), rgb(255, 26, 0), rgb(255, 77, 0));
+    }
+    75% {
+        background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 51, 0), rgb(255, 102, 0));
+    }
+    76% {
+        background: linear-gradient(to right, rgb(255, 26, 0), rgb(255, 77, 0), rgb(255, 128, 0));
+    }
+    77% {
+        background: linear-gradient(to right, rgb(255, 51, 0), rgb(255, 102, 0), rgb(255, 153, 0));
+    }
+    78% {
+        background: linear-gradient(to right, rgb(255, 77, 0), rgb(255, 128, 0), rgb(255, 179, 0));
+    }
+    79% {
+        background: linear-gradient(to right, rgb(255, 102, 0), rgb(255, 153, 0), rgb(255, 204, 0));
+    }
+    80% {
+        background: linear-gradient(to right, rgb(255, 128, 0), rgb(255, 179, 0), rgb(255, 230, 0));
+    }
+    81% {
+        background: linear-gradient(to right, rgb(255, 153, 0), rgb(255, 204, 0), rgb(255, 255, 0));
+    }
+    82% {
+        background: linear-gradient(to right, rgb(255, 179, 0), rgb(255, 230, 0), rgb(204, 255, 0));
+    }
+    83% {
+        background: linear-gradient(to right, rgb(255, 204, 0), rgb(255, 255, 0), rgb(153, 255, 0));
+    }
+    84% {
+        background: linear-gradient(to right, rgb(255, 230, 0), rgb(204, 255, 0), rgb(102, 255, 0));
+    }
+    85% {
+        background: linear-gradient(to right, rgb(255, 255, 0), rgb(153, 255, 0), rgb(51, 255, 0));
+    }
+    86% {
+        background: linear-gradient(to right, rgb(204, 255, 0), rgb(102, 255, 0), rgb(0, 255, 0));
+    }
+    87% {
+        background: linear-gradient(to right, rgb(153, 255, 0), rgb(51, 255, 0), rgb(0, 255, 51));
+    }
+    88% {
+        background: linear-gradient(to right, rgb(102, 255, 0), rgb(0, 255, 0), rgb(0, 255, 102));
+    }
+    89% {
+        background: linear-gradient(to right, rgb(51, 255, 0), rgb(0, 255, 51), rgb(0, 255, 153));
+    }
+    90% {
+        background: linear-gradient(to right, rgb(0, 255, 0), rgb(0, 255, 102), rgb(0, 255, 204));
+    }
+    91% {
+        background: linear-gradient(to right, rgb(0, 255, 51), rgb(0, 255, 153), rgb(0, 255, 255));
+    }
+    92% {
+        background: linear-gradient(to right, rgb(0, 255, 102), rgb(0, 255, 204), rgb(0, 204, 255));
+    }
+    93% {
+        background: linear-gradient(to right, rgb(0, 255, 153), rgb(0, 255, 255), rgb(0, 153, 255));
+    }
+    94% {
+        background: linear-gradient(to right, rgb(0, 255, 204), rgb(0, 204, 255), rgb(0, 102, 255));
+    }
+    95% {
+        background: linear-gradient(to right, rgb(0, 255, 255), rgb(0, 153, 255), rgb(0, 51, 255));
+    }
+    96% {
+        background: linear-gradient(to right, rgb(0, 204, 255), rgb(0, 102, 255), rgb(0, 0, 255));
+    }
+    97% {
+        background: linear-gradient(to right, rgb(0, 153, 255), rgb(0, 51, 255), rgb(51, 0, 255));
+    }
+    98% {
+        background: linear-gradient(to right, rgb(0, 102, 255), rgb(0, 0, 255), rgb(102, 0, 255));
+    }
+    99% {
+        background: linear-gradient(to right, rgb(0, 51, 255), rgb(51, 0, 255), rgb(153, 0, 255));
+    }
+    100% {
+        background: linear-gradient(to right, rgb(0, 0, 255), rgb(102, 0, 255), rgb(204, 0, 255));
+    }
+}
